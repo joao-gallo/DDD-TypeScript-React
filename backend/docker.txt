@@ -1,0 +1,4 @@
+docker run --name mysql-docker -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=senhafacil mysql
+
+
+docker exec -it mysql-docker bash
